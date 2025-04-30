@@ -71,6 +71,12 @@ System prepared for ongoing compliance and patch management.
 
 ![image](https://github.com/user-attachments/assets/0c06b146-fbe8-4a06-af21-45f4ebe07aa9)
 
+![image](https://github.com/user-attachments/assets/f15e2ea5-0e86-4853-a242-26c55c87523a)
+
+![image](https://github.com/user-attachments/assets/c06299ea-c244-475d-bc83-f5e3abfdff5e)
+
+![image](https://github.com/user-attachments/assets/8fd4c73f-5528-4f3b-933a-2992561063d1)
+
 ![Vulnerabilities ](https://github.com/user-attachments/assets/cd0da4be-5506-414a-b7ea-1c32b5bd997d)
 
 ![MicrosoftUpdate](https://github.com/user-attachments/assets/b4495960-92ea-4af9-8f45-523e06148d26)
