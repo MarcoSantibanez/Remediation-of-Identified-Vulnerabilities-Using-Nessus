@@ -63,10 +63,19 @@ System confirmed to be running safe version (18.2110.13110.0) or later.
 
 System prepared for ongoing compliance and patch management.
 ![ConfiguiringScan](https://github.com/user-attachments/assets/f6796a21-3585-4274-918b-b6286ce5db6b)
+
 ![image](https://github.com/user-attachments/assets/0c06b146-fbe8-4a06-af21-45f4ebe07aa9)
+
 ![Vulnerabilities ](https://github.com/user-attachments/assets/cd0da4be-5506-414a-b7ea-1c32b5bd997d)
+
 ![MicrosoftUpdate](https://github.com/user-attachments/assets/b4495960-92ea-4af9-8f45-523e06148d26)
+
 ![RemediationOFEdgeVulnerability](https://github.com/user-attachments/assets/f39722ea-0675-4731-993d-d95c414a3b72)
+
 ![RemediationOFVulnerabilityAndNewVulnerabilities](https://github.com/user-attachments/assets/721969d5-4ef6-43e4-97a1-5758bc8992cf)
+
 ![image](https://github.com/user-attachments/assets/7c7a4677-7a5a-4455-ad92-b3db5da83c26)
+All Critical Vulnerabilities Remediated 
+![image](https://github.com/user-attachments/assets/19ce1427-7d78-4b55-b0c2-6740614d703e)
+
 
