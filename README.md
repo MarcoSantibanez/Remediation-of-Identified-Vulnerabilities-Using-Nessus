@@ -3,9 +3,9 @@
 🔐 Remediating Critical CVEs Using Nessus and Windows Native Tools
 📋 Overview
 This project documents the identification and remediation of a critical vulnerabilities using Nessus by Tenable for detection and native Windows tools for mitigation.
-<br>
+<hr>
 Multiple Critical Vulnerabilities Identified
-<br>
+<hr>
 🛠 Tools & Technologies Used
 🔍 Nessus Vulnerability Scanner – For identifying vulnerabilities like CVE-2021-43905 and outdated .NET Framework versions
 
@@ -18,7 +18,7 @@ Multiple Critical Vulnerabilities Identified
 📁 WindowsApps / Click-to-Run Infrastructure – Investigated app installation paths and versioning
 
 🔄 Windows Update – Used to install security updates for Microsoft .NET Framework (Jan 2024 & Nov 2023 patches)
-<br>
+<hr>
 🧪 Steps Performed
 Conducted a full vulnerability credentialed scans using Nessus.
 
@@ -45,12 +45,12 @@ Updated paint 3D through Microsot Store.
 Updated HEIF Image Extension through Microsoft Store. 
 
 Validated the fixes by re-running the Nessus scan.
-<br> 
+<hr> 
 🔍 OSINT / Research
 Researched CVE on the Microsoft Security Update Guide.
 
 Correlated information with patch notes and Microsoft documentation.
-<br> 
+<hr> 
 Reviewed installation paths and Store app behavior using PowerShell, including:
 
 powershell
@@ -63,7 +63,7 @@ This system used an MSI-based clean OS install with Microsoft 365 installed from
 The vulnerability required no user interaction once a malicious file was processed, making it critical to patch promptly.
 
 Bash and Git Bash were not used in this task to remain consistent with the native Windows environment.
-<br> 
+<hr> 
 ✅ Outcome
 Vulnerabilities successfully remediated.
 
