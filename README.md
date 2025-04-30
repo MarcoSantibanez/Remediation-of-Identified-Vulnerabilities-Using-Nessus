@@ -3,11 +3,9 @@
 🔐 Remediating Critical CVEs Using Nessus and Windows Native Tools
 📋 Overview
 This project documents the identification and remediation of a critical vulnerabilities using Nessus by Tenable for detection and native Windows tools for mitigation.
-
-Vulnerability: Remote Code Execution in Microsoft 365
-Affected Version: 18.1903.1152.0
-Fixed Version: 18.2110.13110.0
-
+<br>
+Multiple Critical Vulnerabilities Identified
+<br>
 🛠 Tools & Technologies Used
 🔍 Nessus Vulnerability Scanner – For identifying vulnerabilities like CVE-2021-43905 and outdated .NET Framework versions
 
@@ -20,7 +18,7 @@ Fixed Version: 18.2110.13110.0
 📁 WindowsApps / Click-to-Run Infrastructure – Investigated app installation paths and versioning
 
 🔄 Windows Update – Used to install security updates for Microsoft .NET Framework (Jan 2024 & Nov 2023 patches)
-
+<br>
 🧪 Steps Performed
 Conducted a full vulnerability credentialed scans using Nessus.
 
@@ -28,6 +26,10 @@ Confirmed the vulnerabilities via self-reported application version.
 
 Verified affected component:
 C:\Program Files\WindowsApps\Microsoft.MicrosoftOfficeHub_18.1903.1152.0_x64__8wekyb3d8bbwe
+C:\Program Files (x86)\Microsoft\Edge\Application
+C:\Program Files\WindowsApps\Microsoft.HEIFImageExtension_1.0.22742.0_x64__8wekyb3d8bbwe
+C:\Program Files\WindowsApps\Microsoft.MSPaint_6.1907.29027.0_x64__8wekyb3d8bbwe
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\system.web.dll
 
 
 Investigated Microsoft Store access to trigger update for OfficeHub.
@@ -36,13 +38,19 @@ Used PowerShell and Store troubleshooting to ensure Microsoft Store was function
 
 Upgraded the Office app to the patched version via Microsoft Store.
 
-Validated the fix by re-running a targeted Nessus scan.
+Updated Edge to newer version. 
 
+Updated paint 3D through Microsot Store.
+
+Updated HEIF Image Extension through Microsoft Store. 
+
+Validated the fixes by re-running the Nessus scan.
+<br> 
 🔍 OSINT / Research
 Researched CVE on the Microsoft Security Update Guide.
 
 Correlated information with patch notes and Microsoft documentation.
-
+<br> 
 Reviewed installation paths and Store app behavior using PowerShell, including:
 
 powershell
@@ -55,7 +63,7 @@ This system used an MSI-based clean OS install with Microsoft 365 installed from
 The vulnerability required no user interaction once a malicious file was processed, making it critical to patch promptly.
 
 Bash and Git Bash were not used in this task to remain consistent with the native Windows environment.
-
+<br> 
 ✅ Outcome
 Vulnerabilities successfully remediated.
 
