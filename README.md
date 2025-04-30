@@ -47,23 +47,24 @@ Updated HEIF Image Extension through Microsoft Store.
 Validated the fixes by re-running the Nessus scan.
 <hr> 
 🔍 OSINT / Research
-
 Researched CVE on the Microsoft Security Update Guide.
 Correlated information with patch notes and Microsoft documentation.
-<hr> 
 
 Reviewed installation paths and Store app behavior using PowerShell, including:
 powershell
 Get-AppxPackage -Name *office* | Select Name, Version, InstallLocation
+
 📁 Notes
 This system used an MSI-based clean OS install with Microsoft 365 installed from the Microsoft Store.
 The vulnerability required no user interaction once a malicious file was processed, making it critical to patch promptly.
 Bash and Git Bash were not used in this task to remain consistent with the native Windows environment.
 <hr> 
+
 ✅ Outcome
 Vulnerabilities successfully remediated.
 
 System confirmed to be running safe version (18.2110.13110.0) or later.
+<hr>
 
 System prepared for ongoing compliance and patch management.
 ![ConfiguiringScan](https://github.com/user-attachments/assets/f6796a21-3585-4274-918b-b6286ce5db6b)
